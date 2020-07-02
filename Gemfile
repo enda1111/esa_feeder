@@ -13,6 +13,8 @@ gem 'dotenv'
 gem 'esa'
 gem 'holiday_japan'
 gem 'pry'
+gem 'puma'
+gem 'sinatra'
 gem 'slack-notifier'
 gem 'thor'
 
