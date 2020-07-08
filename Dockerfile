@@ -1,7 +1,8 @@
 FROM ruby:2.6.3-alpine3.10
 
-RUN apk update && apk add g++ git make
+RUN apk update && apk add g++ git make tzdata
 ENV RACK_ENV production
+ENV TZ=Asia/Tokyo
 
 RUN mkdir /app
 WORKDIR /app
